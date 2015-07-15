@@ -17,15 +17,25 @@ nav a {
 header {
 	height: 85px;
 	background-color: #2b5911;
+   width: 100%;
+   position: fixed;
+   left: 0;
+   right: 0;
+   top: 0;
+}
+
+body {
+   background: url(headimage.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
 }
 
 div p {
-   background: url(headimage.jpg);
-   opacity: 0.4;
-	text-align: center;
+   text-align: center;
    font-family: 'Sketchflow print';
-   font-size: 36px;
-   color: #000000;
+   font-size: 38px;
+   color: #FFFFFF;
+   margin-top: 86px;
    margin-right: 200px;
    margin-left: 200px;
 }
