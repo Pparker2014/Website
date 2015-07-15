@@ -20,6 +20,8 @@ header {
 }
 
 div p {
+   background: url(headimage.jpg);
+   opacity: 0.4;
 	text-align: center;
    font-family: 'Sketchflow print';
    font-size: 36px;
