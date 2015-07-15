@@ -16,7 +16,7 @@ nav a {
 
 header {
    	height: 85px;
-	background-color: #2b5911;
+	   background-color: #23480e;
    	width: 100%;
    	position: fixed;
    	left: 0;
@@ -25,7 +25,7 @@ header {
 }
 
 body {
-   	background: url(headimage.jpg);
+   	background: url(opqheadimage.jpg);
    	background-repeat: no-repeat;
    	background-position: center center;
 }
@@ -34,14 +34,14 @@ div p {
    	text-align: center;
    	font-family: 'Sketchflow print';
    	font-size: 38px;
-   	color: #FFFFFF;
+   	color: #000000;
    	margin-top: 86px;
    	margin-right: 200px;
    	margin-left: 200px;
 }
 
 footer {
-	background-color: #2b5911;
+	background-color: #23480e;
 	text-align: center;
 	color: white;
 	font-size: 12px;
