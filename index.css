@@ -1,0 +1,72 @@
+body {
+	background: url(headimage.jpg);
+	background-size: fill;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+nav {
+	float: right;
+	margin: 30px 30px 0 0;
+	text-shadow: 5px 5px 7px black;
+}
+
+nav a {
+	display: inline-block;
+	margin-left: 20px;
+	color: white;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	hover: white;
+}
+
+h1 {
+	font-size: 72px;
+	font-weight: 700;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	text-align: center;
+	clear: both;
+	padding-top: 100px;
+	margin-bottom: 10px;
+
+}
+
+h1 span {
+	display: inline-block;
+	border: white ridge 10px;
+	padding: 0.2em 0.5em;
+	text-shadow: 5px 5px 7px black;
+}
+
+p {
+	text-align: center;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 0.05em;
+	text-shadow: 5px 5px 7px black;
+}
+
+div {
+	font-family: 'Sketchflow print' bold;
+	font-size: 24px;
+	font-weight: 700;
+	color: white;
+	margin-top: 150px;
+	text-align: center;
+	margin-right: 400px;
+	margin-left: 400px;
+	text-shadow: 5px 5px 7px black;
+}
+
+footer {
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	margin: 40px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
