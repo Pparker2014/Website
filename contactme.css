@@ -15,8 +15,11 @@ nav a {
 }
 
 header {
+	background: url(headimage.jpg);
+    background-size: fill;
+    background-repeat: no-repeat;
+    background-position: center center;
    	height: 85px;
-	background-color: #23480e;
    	width: 100%;
    	position: fixed;
    	left: 0;
@@ -25,7 +28,10 @@ header {
 }
 
 footer {
-	background-color: #23480e;
+	background: url(headimage.jpg);
+    background-size: fill;
+    background-repeat: no-repeat;
+    background-position: center center;
 	text-align: center;
 	color: white;
 	font-size: 12px;
