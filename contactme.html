@@ -29,34 +29,32 @@
 
 			<p>Feel free to ask me any questions about my site or contact me about your project</p><br>
 
-			<?php 
-			$action=$_REQUEST['action']; 
-			if ($action=="")    /* display the contact form */ 
-    			{ 
-    			?> 
-    				<form  action="mailto: pconyers.parker@gmail.com" method="POST" enctype="multipart/form-data"> 
-    				<input type="hidden" name="action" value="submit"> 
+    		<form  action="mailto: pconyers.parker@gmail.com" method="POST" enctype="multipart/form-data"> 
+    		<input type="hidden" name="action" value="submit"> 
     				
-    				Your name:<br> 
-    				<input name="name" type="text" placeholder="Your Name"/><br><br>
+    		Your name:<br> 
+  				<input name="name" type="text" placeholder="Your Name"/><br><br>
     
-    				Your email:<br> 
-    				<input name="email" type="text" placeholder="Your Email"/><br><br>
+  			Your email:<br> 
+    		<input name="email" type="text" placeholder="Your Email"/><br><br>
     
-    				Your message:<br> 
-    				<textarea name="message" placeholder="Currently unable to send emails to me, still working on the PHP element of the site." rows="10" cols="50"></textarea><br><br> 
-    				<input type="submit" value="Submit" id="submit"/> 
+    		Your message:<br> 
+    		<textarea name="message" placeholder="Currently unable to send emails to me, still working on the PHP element of the site." rows="10" cols="50"></textarea><br><br> 
+    		<input type="submit" value="Submit" id="submit"/> 
     				
-    				</form> 
-    		<?php 
-    			}  
-				else                /* send the submitted data */
-    				{
-    				$name=$_REQUEST['name']; 
-    				$email=$_REQUEST['email']; 
-    				$message=$_REQUEST['message']; 
-    				if (($name=="")||($email=="")||($message==""))	 }   
-			?> 
+    		</form> 
+    		<?php
+			if($_POST["submit"]) {
+    			$recipient="pconyers.parker@gmail.com"; //Enter your mail address
+    			$subject="Contact from Website"; //Subject 
+    			$sender=$_POST["name"];
+    			$senderEmail=$_POST["email"];
+    			$message=$_POST["comments"];
+    			$mailBody="Name: $sender\nEmail Address: $senderEmail\n\nMessage: $message";
+    			mail($recipient, $subject, $mailBody);
+					sleep(1);
+			}
+			?>
 
 		</div>
 
