@@ -34,7 +34,6 @@ body {
 }
 
 div {
-      color: #000000;
       margin-top: 86px;
       margin-right: 100px;
       margin-left: 100px;
@@ -53,13 +52,30 @@ div {
       font-family: 'Sketchflow print';
       font-size: 24px;
       font-weight: bold;
-      margin-top: -273px;
+      margin-top: -326px;
+}
+
+div span {
+   display: inline-block;
+   border: green ridge 10px;
+   padding: 0.2em 0.5em;
+}
+
+#skill span {
+   border: green ridge 10px;
+   padding: 0.2em 0.5em;
+   text-align: center;
+}
+
+#links {
+   text-align: center;
+   margin-top: 50px;
 }
 
 div ul li {
    list-style-type: none;
    font-weight: bold;
-   padding-bottom: 10px;
+   padding-bottom: 12.3px;
 }
 
 footer {
