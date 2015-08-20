@@ -1,8 +1,7 @@
 body {
-	background: url(headimage.jpg);
-	background-size: fill;
+	background: url(freewaysky.jpg);
+	background-size: 100%;
 	background-repeat: no-repeat;
-	background-position: center center;
 }
 
 nav {
@@ -19,6 +18,8 @@ nav a {
 	text-transform: uppercase;
 	text-decoration: none;
 	hover: white;
+	font-family: 'Retro Computer';
+
 }
 
 h1 {
@@ -29,16 +30,22 @@ h1 {
 	letter-spacing: 0.05em;
 	text-align: center;
 	clear: both;
-	padding-top: 100px;
 	margin-bottom: 10px;
+	font-family: 'Retro Computer';
 
+}
+
+#logo {
+	height: 5%;
+	width: 5%;
 }
 
 h1 span {
 	display: inline-block;
-	border: white ridge 10px;
+	border: white dotted 10px;
 	padding: 0.2em 0.5em;
 	text-shadow: 5px 5px 7px black;
+	margin-top: -55px;
 }
 
 p {
@@ -48,25 +55,17 @@ p {
 	color: white;
 	letter-spacing: 0.05em;
 	text-shadow: 5px 5px 7px black;
+	font-family: 'Retro Computer';
+
 }
 
 div {
-	font-family: 'Sketchflow print' bold;
+	font-family: 'Retro Computer';
 	font-size: 24px;
-	font-weight: 700;
 	color: white;
-	margin-top: 150px;
+	margin-top: 50px;
 	text-align: center;
-	margin-right: 400px;
-	margin-left: 400px;
+	margin-right: 200px;
+	margin-left: 200px;
 	text-shadow: 5px 5px 7px black;
-}
-
-footer {
-	text-align: center;
-	color: white;
-	font-size: 12px;
-	margin: 40px;
-	text-transform: uppercase;
-	font-weight: 500;
 }
