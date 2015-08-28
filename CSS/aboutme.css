@@ -16,7 +16,7 @@ nav a {
 
 header {
    	height: 85px;
-	   background: url(headimage.jpg);
+	   background: url(../Images/headimage.jpg);
       background-size: fill;
       background-repeat: no-repeat;
       background-position: center center;
@@ -79,7 +79,7 @@ div ul li {
 }
 
 footer {
-	background: url(headimage.jpg);
+	background: url(../Images/headimage.jpg);
    background-size: fill;
    background-repeat: no-repeat;
    background-position: center center;
