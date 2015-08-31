@@ -1,0 +1,39 @@
+#banner {
+	height: 200px;
+	width: 100%;
+	background-color: grey;
+	margin: 0;
+	padding: 0;
+}
+
+#navigation {
+	float: left;
+	width: 150px;
+	height: 500px;
+	background-color: pink;
+	text-align: center;
+}
+
+#navigation ul li {
+	list-style-type: none;
+	padding-bottom: 15px;
+	font-weight: bold;
+}
+
+#navigation ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 24px;
+}
+
+#aboutme {
+	float: right;
+	width: 150px;
+	height: 500px;
+	background-color: pink;
+	text-align: center;
+}
+
+#aboutme img {
+	margin-top: 25px;
+}

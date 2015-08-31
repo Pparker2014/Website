@@ -15,44 +15,44 @@ nav a {
 }
 
 header {
-   	height: 85px;
-	   background: url(../Images/headimage.jpg);
-      background-size: fill;
-      background-repeat: no-repeat;
-      background-position: center center;
-   	width: 100%;
-   	position: fixed;
-   	left: 0;
-   	right: 0;
-   	top: 0;
+   height: 85px;
+   background: url(../Images/headimage.jpg);
+   background-size: fill;
+   background-repeat: no-repeat;
+   background-position: center center;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
 }
 
 body {
-   	background-color: #FFFFFF;
-   	background-repeat: no-repeat;
-   	background-position: center center;
+	background-color: #FFFFFF;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 div {
-      margin-top: 86px;
-      margin-right: 100px;
-      margin-left: 100px;
+   margin-top: 86px;
+   margin-right: 100px;
+   margin-left: 100px;
 }
 
 #text {
-   	text-align: left;
-   	font-family: 'Sketchflow print';
-   	font-size: 24px;
-      margin-right: 400px;
-      margin-top: 100px;
+	text-align: left;
+	font-family: 'Sketchflow print';
+	font-size: 24px;
+   margin-right: 400px;
+   margin-top: 100px;
 }
 
 #skill {
-      text-align: right;
-      font-family: 'Sketchflow print';
-      font-size: 24px;
-      font-weight: bold;
-      margin-top: -326px;
+   text-align: right;
+   font-family: 'Sketchflow print';
+   font-size: 24px;
+   font-weight: bold;
+   margin-top: -326px;
 }
 
 div span {
