@@ -1,9 +1,8 @@
 #banner {
 	height: 200px;
-	width: 100%;
-	background-color: grey;
-	margin: 0;
-	padding: 0;
+	width: 1333px;
+	background-image: url(../Images/banner.jpg);
+	background-position: center;
 }
 
 #navigation {
